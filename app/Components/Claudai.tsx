@@ -15,24 +15,24 @@ const Claudai = () => {
       }}
     >
      
-     <div className="absolute w-[100%] h-[100%] pl-15 flex flex-col l-0 t-0 z-10 items-center justify-center px-6">
-      <div className="container mx-auto">
+     <div className="absolute w-[100%] h-[100%]  flex flex-col px-40  t-0 z-10 items-center justify-center px-6">
+      <div className="container mx-auto text-center">
         
         {/* Main Heading */}
         <h1 className="text-[#ffffff] font-semibold leading-[74px]
-                       text-[34px] md:text-[44px] xl:text-[54px] 2xl:text-[64px]">
-          Sovereign Cloud & AI Infrastructure <br className="hidden md:block" /> For The Modern Enterprise
+                       md:text-[44px] xl:text-[54px] 2xl:text-[64px]">
+          Sovereign Cloud & AI Infrastructure <br className="hidden sm:block" /> For The Modern Enterprise
         </h1>
 
         {/* Subheading */}
         <p className="text-[#ffffff] max-w-[850px] leading-[30px]
-                      text-[14px] md:text-[16px] 2xl:text-[20px] font-normal">
+                      md:text-[16px] 2xl:text-[20px] font-normal text center mx-auto">
           Deploy secure, scalable, and compliant cloud infrastructure with full data sovereignty. 
           From GPU-powered AI workloads to edge computing—all orchestrated from a single platform.
         </p>
 
         {/* Buttons Group */}
-        <div className="flex flex-col sm:flex-row items-center gap-4 2xl:mt-4">
+        <div className="flex flex-col sm:flex-row items-center gap-4 2xl:mt-4 justify-center">
           <button className="w-[227px] h-[48px] 2xl:h-[56px] px-8 bg-[#0095B6] text-white rounded-md  transition-all text-sm 2xl:text-base font-medium text-[20px]">
             Discover Products
           </button>
@@ -45,13 +45,7 @@ const Claudai = () => {
       </div>
 
      
-      
-
-{/* --- 3. LOGO BAR SECTION --- */}
-
-    </section>
-
-<div className="relative z-10 w-full mt-24 2xl:mt-40 mb-20 px-6">
+   <div className="relative z-10 w-full h-full mt-24 2xl:mt-40 mb-20 px-6">
   
   <div className="mx-auto max-w-[1589px] 
                   flex flex-wrap items-center justify-center 2xl:justify-between 
@@ -87,7 +81,13 @@ const Claudai = () => {
          {/* Gradient Overlay  bottom fade  */}
       <div className="absolute bottom-0 left-0 w-full h-38 bg-gradient-to-t from-black to-transparent z-1 pointer-events-none" />
   </div>
-</div>
+</div>   
+
+{/* --- 3. LOGO BAR SECTION --- */}
+
+    </section>
+
+
       
 </>
   );
