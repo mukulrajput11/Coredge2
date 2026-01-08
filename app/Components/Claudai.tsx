@@ -4,92 +4,86 @@ import React from 'react';
 const Claudai = () => {
   return (
     <>
-    <section 
-      className="max-w-full relative bg-black overflow-hidden items-center
-                  h-[600px] md:h-[700px] 2xl:h-[850px] 2xl:w-[full] mx-auto"
-      style={{
-        
-        backgroundImage: 'url("/claud.png")',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
-    >
-     
-     <div className="absolute w-[100%] h-[100%]  flex flex-col px-40  t-0 z-10 items-center justify-center px-6">
-      <div className="container mx-auto text-center">
-        
-        {/* Main Heading */}
-        <h1 className="text-[#ffffff] font-semibold leading-[74px]
-                       md:text-[44px] xl:text-[54px] 2xl:text-[64px]">
-          Sovereign Cloud & AI Infrastructure <br className="hidden sm:block" /> For The Modern Enterprise
-        </h1>
+      <section
+        className="min-w-full relative bg-[#0B0B0B] overflow-hidden items-center
+                  mx-auto 
+                   before:content-['']
+      before:absolute
+      before:inset-0
+      before:top-0
+      before:left-0
+      before:h-[115%]
+      before:w-[100%]
+      before:bg-gradient-to-b
+      before:from-[#0B0B0B]
+      before:via-[#0B0B0B]/100
+      before:to-transparent
+      before:z-9
+      
+      ">
+        <video src="/claud-video.mp4" className="h-[90vh] xl:h-[90vh] 2xl:h-[90vh] lg:h-[85vh] md:h-[80vh] sm:h-[100vh] w-full object-fill " />
 
-        {/* Subheading */}
-        <p className="text-[#ffffff] max-w-[850px] leading-[30px]
-                      md:text-[16px] 2xl:text-[20px] font-normal text center mx-auto">
-          Deploy secure, scalable, and compliant cloud infrastructure with full data sovereignty. 
-          From GPU-powered AI workloads to edge computing—all orchestrated from a single platform.
-        </p>
+        <div className="absolute w-full flex flex-col t-0 z-10 items-center justify-center px-6 mx-auto ">
+          <div className="absolute container mx-auto text-center ">
 
-        {/* Buttons Group */}
-        <div className="flex flex-col sm:flex-row items-center gap-4 2xl:mt-4 justify-center">
-          <button className="w-[227px] h-[48px] 2xl:h-[56px] px-8 bg-[#0095B6] text-white rounded-md  transition-all text-sm 2xl:text-base font-medium text-[20px]">
-            Discover Products
-          </button>
-          <button className="w-[222px] h-[48px] 2xl:h-[56px] px-8 border border-[#0095B6] text-white rounded-md font-medium  transition-all text-sm 2xl:text-base font-medium text-[20px]">
-            Request a Demo
-          </button>
+            {/* Main Heading */}
+            <h1 className="text-[#ffffff] font-semibold leading-10 lg:leading-14 xl:leading-16 2xl:leading-20 lg:text-[44px] text-[34px] md:leading-12
+                       md:text-[40px] xl:text-[54px] 2xl:text-[64px] w-full">
+              Sovereign Cloud & AI Infrastructure <br className="hidden sm:block" /> For The Modern Enterprise
+            </h1>
+
+            {/* Subheading */}
+            <p className="text-[#ffffff] leading-[23px] md:leading-[28px] lg:leading-[30px] xl:leading-[30px] 2xl:leading-[35px] lg:text-[20px] text-[14px]
+                      md:text-[16px] 2xl:text-[20px] font-normal text-center mx-[16%] my-6">
+              Deploy secure, scalable, and compliant cloud infrastructure with full data sovereignty.
+              From GPU-powered AI workloads to edge computing—all orchestrated from a single platform.
+            </p>
+
+            {/* Buttons Group */}
+            <div className="flex flex-col sm:flex-row items-center gap-4 justify-center mb-[120%] pb-[100%] lg:mb-[70%] md:mb-[85%] md:pb-[20%] xl:mb-[50%] 2xl:mb-[38%] ">
+              <button className="px-[28px] py-[13px] bg-[#0095B6] text-white rounded-md  transition-all 2xl:text-base font-medium text-[14px] lg:text-[20px] 2xl:text-[20px] md:text-[16px] ">
+                Discover Products
+              </button>
+              <button className="px-[28px] py-[13px] 2xl:h-[56px] border border-[#fff] text-white rounded-md font-medium  transition-all text-[14px] lg:text-[20px] 2xl:text-[20px] md:text-[16px] ">
+                Request a Demo
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+        {/* --- 3. LOGO BAR SECTION --- */}
+
+      </section >
+      <div className="flex flex-wrap justify-center items-center bg-[#020202]  min-w-auto min-h-[76px]">
+        <div className="container w-[100%]">
+          <div className="slider">
+            <div className="slide-track w-auto">
+              <img src="cisco.png" alt="Cisco-logo" className="slide object-fit" />
+              <img src="dell.png" alt="Dell-logo" className="slide object-fit" />
+              <img src="google.png" alt="Google-logo" className="slide object-fit" />
+              <img src="qualcomm.png" alt="Qualcomm-logo" className="slide object-fit" />
+              <img src="broadcom.png" alt="Broadcom-logo" className="slide object-fit" />
+              <img src="maerif.png" alt="Mearifa-logo" className="slide object-fit" />
+
+              {/* <!-- same 9 slides doubled (duplicate) --> */}
+
+              <img src="cisco.png" alt="Cisco-logo" className="slide object-fit" />
+              <img src="dell.png" alt="Dell-logo" className="slide object-fit" />
+              <img src="google.png" alt="Google-logo" className="slide object-fit" />
+              <img src="qualcomm.png" alt="Qualcomm-logo" className="slide object-fit" />
+              <img src="broadcom.png" alt="Broadcom-logo" className="slide object-fit" />
+              <img src="maerif.png" alt="Maerif-logo" className="slide object-fit" />
+            </div>
+          </div>
         </div>
       </div>
 
-      </div>
 
-     
-   <div className="relative z-10 w-full h-full mt-24 2xl:mt-40 mb-20 px-6">
-  
-  <div className="mx-auto max-w-[1589px] 
-                  flex flex-wrap items-center justify-center 2xl:justify-between 
-                  gap-x-12 md:gap-x-20 2xl:gap-x-0 gap-y-10 
-                  opacity-50 grayscale opacity-100 transition-all duration-500 mt-[-100px]">
-    
-    {/* Image Scaling:
-        */}
-    <div className="flex justify-center min-w-[140px] md:min-w-min">
-      <img src="/cisco.png" alt="Cisco" className="h-8 md:h-10 2xl:h-[32px] w-auto object-contain" />
-    </div>
-
-    <div className="flex justify-center min-w-[140px] md:min-w-min">
-      <img src="/dell.png" alt="Dell" className="h-6 md:h-8 2xl:h-[28px] w-auto object-contain" />
-    </div>
-
-    <div className="flex justify-center min-w-[140px] md:min-w-min">
-      <img src="/google.png" alt="Google" className="h-8 md:h-10 2xl:h-[32px] w-auto object-contain" />
-    </div>
-
-    <div className="flex justify-center min-w-[140px] md:min-w-min">
-      <img src="/qualcomm.png" alt="Qualcomm" className="h-6 md:h-8 2xl:h-[26px] w-auto object-contain" />
-    </div>
-
-    <div className="flex justify-center min-w-[140px] md:min-w-min">
-      <img src="/broadcom.png" alt="Broadcom" className="h-5 md:h-6 2xl:h-[22px] w-auto object-contain" />
-    </div>
-
-    <div className="flex justify-center min-w-[140px] md:min-w-min">
-      <img src="/maerif.png" alt="Maerif" className="h-8 md:h-10 2xl:h-[32px] w-auto object-contain" />
-    </div>
-         
-         {/* Gradient Overlay  bottom fade  */}
-      <div className="absolute bottom-0 left-0 w-full h-38 bg-gradient-to-t from-black to-transparent z-1 pointer-events-none" />
-  </div>
-</div>   
-
-{/* --- 3. LOGO BAR SECTION --- */}
-
-    </section>
-
-
-      
-</>
+    </>
   );
 };
 
