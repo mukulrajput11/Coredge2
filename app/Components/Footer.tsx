@@ -90,7 +90,7 @@ export default function Footer() {
                         xl:w-[100%]
                         2xl:w-[100%]
                         max-w-full
-                         xl:h-[50vh] 2xl:h-[65vh] lg:h-[35vh] md:h-[20vh] sm:h-[100vh] w-full object-fill "
+                         h-auto w-full object-fill "
                     />
                 </div>
 
