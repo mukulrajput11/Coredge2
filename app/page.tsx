@@ -7,8 +7,6 @@ import Leading from './Components/leading';
 import PlatformSuite from './Components/PlatformSuite';
 import Partners from './Components/Partners';
 import SolutionsSection from './Components/SolutionsSection'; 
-import ComputingSection from './Components/ComputingSection';
-import Hybridsolution from './Components/Hybridsolution'
 import LearningCenter from './Components/LearningCenter ';
 import Footer from './Components/Footer';
 import Industry from './Components/Industry';
@@ -20,11 +18,8 @@ export default function Home() {
     <Theworld/>
     <PlatformSuite/>
     <Corepiller/>
-    <Industry/>
     <SolutionsSection/>
-    <ComputingSection/>
-    <Hybridsolution/>
-    
+    <Industry/>    
     <Partners/>
     <LearningCenter/>
      <Leading/>
